@@ -6,12 +6,14 @@
 </template>
 
 <script>
+  import PropertyAddresses from './components/PropertyAddresses.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    PropertyAddresses
   }
 }
 </script>
